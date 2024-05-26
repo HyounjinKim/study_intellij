@@ -9,9 +9,11 @@ public class Main {
 
         int a = 10;
         int b = 20;
+        System.out.println(a + b);
 
         AA aa = new AA();
         aa.doA();
         a = 30;
+        System.out.println(a + b);
     }
 }
